@@ -1,10 +1,10 @@
 # --- choose ONE of these two lines ---
-strands-agents[openai]>=1.7.1      # If using OpenAI models via OpenAI API
-# strands-agents>=1.7.1             # If using Ollama/Bedrock/etc. (no OpenAI extras)
+# strands-agents[openai]>=1.7.1      # If using OpenAI models via OpenAI API
+strands-agents            # If using Ollama/Bedrock/etc. (no OpenAI extras)
 
 # Optional/handy tool pack
-strands-agents-tools>=0.2.6
+strands-agents-tools
 
 # Env & typing niceties (optional but recommended)
-python-dotenv>=1.0.1
-pydantic>=2.7
+python-dotenv
+pydantic
